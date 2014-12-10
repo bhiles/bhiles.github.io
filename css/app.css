@@ -1,0 +1,42 @@
+@font-face {
+font-family: Quicksand;
+src: url("../fonts/Quicksand-Regular.otf") format("opentype");
+}
+
+@font-face {
+font-family: Quicksand-Light;
+src: url("../fonts/Quicksand-Light.otf") format("opentype");
+}
+
+body {
+    background: url('../img/squairy_light.png');
+}
+
+h1 {
+    font-size: 46px;
+    font-family: 'Quicksand';
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Quicksand';
+}
+
+p, div {
+    font-size: 20px;
+    font-family: 'Quicksand-Light';
+}
+
+.icon-link {
+    color: black;
+    text-decoration:none;
+}
+
+a.icond-link:link, 
+a.icon-link:hover,
+a.icon-link:visited, 
+a.icon-link:active {
+    color: black;
+    text-decoration:none;
+}    
+
+.top-buffer { margin-top:20px; }
